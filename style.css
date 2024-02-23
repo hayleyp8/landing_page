@@ -1,0 +1,44 @@
+.header {
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(203, 247, 255);
+
+    /* box model */
+    border: 2px solid red;
+    padding: 8px;
+
+}
+
+.logo {
+    color: blueviolet;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.links {
+    display: flex;
+    border: 2px solid red;
+}
+
+ul {
+    /* flexbox */
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+
+    /* font and styling */
+    list-style-type: none;
+
+    /* box model */
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    font-size: 30px;
+}
