@@ -3,12 +3,30 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: rgb(203, 247, 255);
+    background-color: rgb(203, 247, 255);
 
     /* box model */
     border: 2px solid red;
-    padding: 8px;
+    padding: 0;
+    margin: 0;
 
+}
+
+.section2 {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* box model */
+    border: 2px solid red;
+    padding: 0;
+    margin: 0;
+}
+
+.wordssection2 {
+    inline-size: 400px;
+    overflow-wrap: break-word;
 }
 
 .logo {
@@ -24,10 +42,19 @@
     border: 2px solid red;
 }
 
+.button {
+    background-color: #bbfacc;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+}
+
 ul {
     /* flexbox */
     display: flex;
-    gap: 300px;
+    gap: 80px;
     justify-content: center;
     align-items: center;
 
@@ -39,6 +66,6 @@ ul {
     margin: 10px;
 }
 
-a {
-    font-size: 30px;
+body {
+    font-family: Verdana, sans-serif;
 }
