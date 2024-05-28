@@ -56,12 +56,13 @@
   }
 
 .section4 {
-    display: flex;
-    justify-content: center;
     /* box model */
     border: 2px solid red;
     padding: 100px;
-    margin: 0;
+    margin: auto;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    font-style: italic;
 }
   
 
