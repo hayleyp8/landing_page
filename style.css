@@ -20,7 +20,7 @@
     justify-content: center;
     /* box model */
     border: 2px solid red;
-    padding: 0;
+    padding: 10px;
     margin: 0;
 }
 
@@ -28,6 +28,42 @@
     inline-size: 400px;
     overflow-wrap: break-word;
 }
+
+.section3 {
+    background-color: aquamarine;
+    /* box model */
+    border: 2px solid red;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section3items {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+
+  
+  .item {
+    border: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    /* box model */
+    border: 2px solid red;
+    padding: 100px;
+    margin: 0;
+}
+  
 
 .logo {
     color: blueviolet;
